@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "STEP API Plugin",
+  "name_for_model": "step_api",
+  "description_for_human": "Access STEP REST API for managing assets, entities, and classifications.",
+  "description_for_model": "Plugin for interacting with STEP REST API V2 endpoints.",
+  "auth": {
+    "type": "basic"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://pentest-pentest01.mdm.stibosystems.com/restapiv2/specification/openapi.json"
+  },
+  "logo_url": "https://yourdomain.com/logo.png",
+  "contact_email": "support@yourdomain.com",
+  "legal_info_url": "https://yourdomain.com/legal"
+}
